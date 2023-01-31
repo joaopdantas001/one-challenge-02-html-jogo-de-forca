@@ -1,9 +1,9 @@
 
-function pulaLinha{
+function pulaLinha(){
     document.write("<br>");
 }
 
 function tentativa(){
-    var letra = document.getElementById().value;
+    const letra = document.querySelector().value;
     alert(letra);
   }
