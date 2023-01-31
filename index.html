@@ -9,18 +9,14 @@
       href="./css/stylesheet.css"
       media="screen"
     />
-    <script>
-      function tentativa(){
-    alert("oi!");
-}
-    </script>
+    <script src="./javascript/javascript.js" defer></script>
   </head>
   <body>
     <div id="flex-container">
       <div class="container">
-        <h1>Jogo de <a href="./jogo.html" target="_blank">Forca</a></h1>
-        <img src="./img/capa.png" alt="Capa do Jogo de Forca">
-      </div>
+        <h1>Jogo de Forca</h1>
+        <a href="./jogo.html" target="_blank"><img id="img-capa" src="./img/capa.png" alt="Capa do Jogo de Forca"></a>
+      </div>  
       <div class="container">
         <h1>Adivinhe a Palavra Oculta</h1>
         <img id="forca" src="./img/forca.png" alt="Forca" />
@@ -28,40 +24,40 @@
         <h2 id="palavra">Palavra: _ _ _ _ _ _</h2>
         <h2>Chutes errados: <span id="chutes">0</span></h2>
         <div class="teclado">
-          <button class="letra efeito" onclick="tentativa()">A</button>
-          <button class="letra efeito" onclick="tentativa()">B</button>
-          <button class="letra efeito" onclick="tentativa()">C</button>
-          <button class="letra efeito" onclick="tentativa()">D</button>
-          <button class="letra efeito" onclick="tentativa()">E</button>
-          <button class="letra efeito" onclick="tentativa()">F</button>
-          <button class="letra efeito" onclick="tentativa()">G</button>
+          <input type="button" value="A" id="a" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="B" id="b" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="C" id="c" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="D" id="d" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="E" id="e" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="F" id="f" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="G" id="g" class="letra efeito" onclick="tentativa()"></input>
         </div>
         <div class="teclado">
-          <button class="letra efeito" onclick="tentativa()">H</button>
-          <button class="letra efeito" onclick="tentativa()">I</button>
-          <button class="letra efeito" onclick="tentativa()">J</button>
-          <button class="letra efeito" onclick="tentativa()">K</button>
-          <button class="letra efeito" onclick="tentativa()">L</button>
-          <button class="letra efeito" onclick="tentativa()">M</button>
-          <button class="letra efeito" onclick="tentativa()">N</button>
+          <input type="button" value="H" id="h" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="I" id="i" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="J" id="j" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="K" id="k" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="L" id="l" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="M" id="m" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="N" id="n" class="letra efeito" onclick="tentativa()"></input>
         </div>
         <div class="teclado">
-          <button class="letra efeito" onclick="tentativa()">O</button>
-          <button class="letra efeito" onclick="tentativa()">P</button>
-          <button class="letra efeito" onclick="tentativa()">Q</button>
-          <button class="letra efeito" onclick="tentativa()">R</button>
-          <button class="letra efeito" onclick="tentativa()">S</button>
-          <button class="letra efeito" onclick="tentativa()">T</button>
-          <button class="letra efeito" onclick="tentativa()">U</button>
+          <input type="button" value="O" id="o" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="P" id="p" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="Q" id="q" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="R" id="r" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="S" id="s" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="T" id="t" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="U" id="u" class="letra efeito" onclick="tentativa()"></input>
         </div>
         <div class="teclado">
-          <button class="letra efeito" onclick="tentativa()">V</button>
-          <button class="letra efeito" onclick="tentativa()">X</button>
-          <button class="letra efeito" onclick="tentativa()">W</button>
-          <button class="letra efeito" onclick="tentativa()">Y</button>
-          <button class="letra efeito" onclick="tentativa()">Z</button>
-          <button class="oculto" onclick="tentativa()"></button>
-          <button class="oculto" onclick="tentativa()"></button>
+          <input type="button" value="V" id="v" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="X" id="x" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="W" id="w" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="Y" id="y" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="Z" id="z" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="Ç" id="ç" class="letra efeito" onclick="tentativa()"></input>
+          <input type="button" value="" id="ç" class="oculto" onclick="tentativa()"></input>
         </div>
       </div>
     </div>
