@@ -12,52 +12,50 @@
     <script src="./javascript/javascript.js" defer></script>
   </head>
   <body>
-    <div id="flex-container">
+
       <div class="container">
         <h1>Jogo de Forca</h1>
-        <a href="./jogo.html" target="_blank"><img id="img-capa" src="./img/capa.png" alt="Capa do Jogo de Forca"></a>
-      </div>  
-      <div class="container">
-        <h1>Adivinhe a Palavra Oculta</h1>
+        <div id="img-capa"><a href="./jogo.html" target="_blank"><img  src="./img/capa.png" alt="Capa do Jogo de Forca"></div></a>  
+        <h1>Adivinhe a Palavra</h1>
         <img id="forca" src="./img/forca.png" alt="Forca" />
         <h2 id="dica">LEGUME</h2>
         <h2> Palavra:<span id="palavraOculta">_ _ _ _ _ _</span></h2>
         <h2>Ainda faltam, <span id="tentativas">0</span> tentativas !</h2>
         <div class="teclado">
-          <input type="button" value="a" id="a" class="letra efeito" onclick="buscarLetraNaPalavraOculta_a()"></input>
-          <input type="button" value="b" id="b" class="letra efeito" onclick="buscarLetraNaPalavraOculta_b()"></input>
-          <input type="button" value="c" id="c" class="letra efeito" onclick="buscarLetraNaPalavraOculta_c()"></input>
-          <input type="button" value="d" id="d" class="letra efeito" onclick="buscarLetraNaPalavraOculta_d()"></input>
-          <input type="button" value="e" id="e" class="letra efeito" onclick="buscarLetraNaPalavraOculta_e()"></input>
-          <input type="button" value="f" id="f" class="letra efeito" onclick="buscarLetraNaPalavraOculta_f()"></input>
-          <input type="button" value="g" id="g" class="letra efeito" onclick="buscarLetraNaPalavraOculta_g()"></input>
+          <input type="button" value="a" id="a" class="letra" onclick="buscarLetraNaPalavraOculta_a()"></input>
+          <input type="button" value="b" id="b" class="letra" onclick="buscarLetraNaPalavraOculta_b()"></input>
+          <input type="button" value="c" id="c" class="letra" onclick="buscarLetraNaPalavraOculta_c()"></input>
+          <input type="button" value="d" id="d" class="letra" onclick="buscarLetraNaPalavraOculta_d()"></input>
+          <input type="button" value="e" id="e" class="letra" onclick="buscarLetraNaPalavraOculta_e()"></input>
+          <input type="button" value="f" id="f" class="letra" onclick="buscarLetraNaPalavraOculta_f()"></input>
+          <input type="button" value="g" id="g" class="letra" onclick="buscarLetraNaPalavraOculta_g()"></input>
         </div>
         <div class="teclado">
-          <input type="button" value="h" id="h" class="letra efeito" onclick="buscarLetraNaPalavraOculta_h()"></input>
-          <input type="button" value="i" id="i" class="letra efeito" onclick="buscarLetraNaPalavraOculta_i()"></input>
-          <input type="button" value="j" id="j" class="letra efeito" onclick="buscarLetraNaPalavraOculta_j()"></input>
-          <input type="button" value="k" id="k" class="letra efeito" onclick="buscarLetraNaPalavraOculta_k()"></input>
-          <input type="button" value="l" id="l" class="letra efeito" onclick="buscarLetraNaPalavraOculta_l()"></input>
-          <input type="button" value="m" id="m" class="letra efeito" onclick="buscarLetraNaPalavraOculta_m()"></input>
-          <input type="button" value="n" id="n" class="letra efeito" onclick="buscarLetraNaPalavraOculta_n()"></input>
+          <input type="button" value="h" id="h" class="letra" onclick="buscarLetraNaPalavraOculta_h()"></input>
+          <input type="button" value="i" id="i" class="letra" onclick="buscarLetraNaPalavraOculta_i()"></input>
+          <input type="button" value="j" id="j" class="letra" onclick="buscarLetraNaPalavraOculta_j()"></input>
+          <input type="button" value="k" id="k" class="letra" onclick="buscarLetraNaPalavraOculta_k()"></input>
+          <input type="button" value="l" id="l" class="letra" onclick="buscarLetraNaPalavraOculta_l()"></input>
+          <input type="button" value="m" id="m" class="letra" onclick="buscarLetraNaPalavraOculta_m()"></input>
+          <input type="button" value="n" id="n" class="letra" onclick="buscarLetraNaPalavraOculta_n()"></input>
         </div>
         <div class="teclado">
-          <input type="button" value="o" id="o" class="letra efeito" onclick="buscarLetraNaPalavraOculta_o()"></input>
-          <input type="button" value="p" id="p" class="letra efeito" onclick="buscarLetraNaPalavraOculta_p()"></input>
-          <input type="button" value="q" id="q" class="letra efeito" onclick="buscarLetraNaPalavraOculta_q())"></input>
-          <input type="button" value="r" id="r" class="letra efeito" onclick="buscarLetraNaPalavraOculta_r()"></input>
-          <input type="button" value="s" id="s" class="letra efeito" onclick="buscarLetraNaPalavraOculta_s()"></input>
-          <input type="button" value="t" id="t" class="letra efeito" onclick="buscarLetraNaPalavraOculta_t()"></input>
-          <input type="button" value="u" id="u" class="letra efeito" onclick="buscarLetraNaPalavraOculta_u()"></input>
+          <input type="button" value="o" id="o" class="letra" onclick="buscarLetraNaPalavraOculta_o()"></input>
+          <input type="button" value="p" id="p" class="letra" onclick="buscarLetraNaPalavraOculta_p()"></input>
+          <input type="button" value="q" id="q" class="letra" onclick="buscarLetraNaPalavraOculta_q()"></input>
+          <input type="button" value="r" id="r" class="letra" onclick="buscarLetraNaPalavraOculta_r()"></input>
+          <input type="button" value="s" id="s" class="letra" onclick="buscarLetraNaPalavraOculta_s()"></input>
+          <input type="button" value="t" id="t" class="letra" onclick="buscarLetraNaPalavraOculta_t()"></input>
+          <input type="button" value="u" id="u" class="letra" onclick="buscarLetraNaPalavraOculta_u()"></input>
         </div>
         <div class="teclado">
-          <input type="button" value="v" id="v" class="letra efeito" onclick="buscarLetraNaPalavraOculta_v()"></input>
-          <input type="button" value="x" id="x" class="letra efeito" onclick="buscarLetraNaPalavraOculta_x()"></input>
-          <input type="button" value="w" id="w" class="letra efeito" onclick="buscarLetraNaPalavraOculta_z()"></input>
-          <input type="button" value="y" id="y" class="letra efeito" onclick="buscarLetraNaPalavraOculta_y()"></input>
-          <input type="button" value="z" id="z" class="letra efeito" onclick="buscarLetraNaPalavraOculta_z()"></input>
-          <input type="button" value="ç" id="ç" class="letra efeito" onclick="buscarLetraNaPalavraOculta_ç()"></input>
-          <input type="button" value="" id="ç" class="oculto" onclick="buscarLetraNaPalavraOculta()"></input>
+          <input type="button" value="v" id="v" class="letra" onclick="buscarLetraNaPalavraOculta_v()"></input>
+          <input type="button" value="x" id="x" class="letra" onclick="buscarLetraNaPalavraOculta_x()"></input>
+          <input type="button" value="w" id="w" class="letra" onclick="buscarLetraNaPalavraOculta_z()"></input>
+          <input type="button" value="y" id="y" class="letra" onclick="buscarLetraNaPalavraOculta_y()"></input>
+          <input type="button" value="z" id="z" class="letra" onclick="buscarLetraNaPalavraOculta_z()"></input>
+          <input type="button" value="ç" id="ç" class="letra" onclick="buscarLetraNaPalavraOculta_ç()"></input>
+          <input type="button" value=" " id=" " class="letra botaoVazio" ></input>
         </div>
       </div>
     </div>
